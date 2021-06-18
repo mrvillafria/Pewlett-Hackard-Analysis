@@ -1,4 +1,4 @@
--- Create new table with retiring employees and their titles
+-- Retrieve retiring employees information and their titles
 SELECT e.emp_no,
 e.first_name,
 e.last_name,
@@ -12,12 +12,20 @@ ON e.emp_no = t.emp_no
 WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 ORDER BY e.emp_no ASC;
 
--- Use Dictinct with Orderby to remove duplicate rows
+-- Remove duplicates rows of retiring employees and keep only the most recent title
 SELECT DISTINCT ON (rt.emp_no) 
 rt.emp_no,
 rt.first_name,
 rt.last_name,
 rt.title
 INTO unique_titles
-FROM retirement_titles rt
+FROM retirement_titles as rt
 ORDER BY rt.emp_no ASC, rt.to_date DESC;
+
+--Retrieve number of employees by their most recent job title who are about to retire
+SELECT COUNT(ut.emp_no),
+ut.title
+INTO retiring_titles
+FROM unique_titles as ut
+GROUP BY ut.title
+ORDER BY COUNT(ut.emp_no) DESC;
