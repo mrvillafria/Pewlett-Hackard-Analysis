@@ -59,4 +59,12 @@ Mentorship Eligibility table consists of the following data:
 
 [Mentorship Eligibility Export - Link](https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv)
 
+### Analysis
+Based on the new tables we created, here are four key points we discovered:
+1. There are 90398 total employees at Pewlett Hackard born between 1952 and 1955 that are expected to retire soon
+2. By looking at the employees' most recent titles, we find that majority of retiring employees have senior titles or are engineers
+![Retiring_Titles](/Resources/Retiring_Titles.PNG)
+3. 
+4. 
+
 ## Summary
