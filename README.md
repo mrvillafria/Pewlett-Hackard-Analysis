@@ -34,12 +34,16 @@ Unique Titles table consists of the following data:
 - Employee Last Name
 - Employee Title
 
+[Unique Titles Export - Link](https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv)
+
 #### Retiring Titles
 The information in this table below consists of number of employees eligible to retire per title. We used COUNT to count the number of employees and grouped the table by title.
 
 Retiring Titles table consists of the following data:
 - Count of Employees
 - Employee Title
+
+[Retiring Titles Export - Link](https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv)
 
 #### Mentorship Eligibility
 The information in this table below consists of number of employees eligible to participate in a mentorship program. These are current employees that were born between January 1, 1965 and December 31, 1965.
@@ -53,5 +57,6 @@ Mentorship Eligibility table consists of the following data:
 - End Date of Title
 - Employee Title
 
+[Mentorship Eligibility Export - Link](https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.csv)
 
 ## Summary
