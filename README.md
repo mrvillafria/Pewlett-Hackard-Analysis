@@ -23,6 +23,8 @@ Retirement Titles table consists of the following data:
 - Start Date of Title
 - End Date of Title
 
+[Retirement Titles Export - Link](https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv)
+
 #### Unique Titles
 The information in this table below consists of employees eligible to retire and their most recent title. We noticed in the Retirement Titles table that there was duplicate entries because employees changed their titles over the years. In order to remove these duplicates and only keep their most recent title, we used DISTINCT ON in our query to retrieve the first occurance of the employee number.
 
