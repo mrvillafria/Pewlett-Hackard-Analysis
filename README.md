@@ -13,7 +13,7 @@ By putting Pewlett Hackard's employee data into a new database, their data is no
 ## Results
 
 #### Retirement Titles
-The information in this table below consists of employees eligible to retire and their titles. As mentioned previously, Bobby's boss has determined that any employee born between 1952 and 1955 will start to retire. 
+The information in this table below consists of employees eligible to retire and their titles. As mentioned previously, Bobby's boss has determined that any employee born between 1952 and 1955 will start to retire. This table will be the foundation to our next queries. In order to retrieve this information based on the data we had, we joined the existing Employees and Titles tables on their primary key, which is the Employee Number. 
 
 Retirement Titles table consists of the following data:
 - Employee Number
@@ -24,9 +24,32 @@ Retirement Titles table consists of the following data:
 - End Date of Title
 
 #### Unique Titles
+The information in this table below consists of employees eligible to retire and their most recent title.
+
+Unique Titles table consists of the following data:
+- Employee Number
+- Employee First Name
+- Employee Last Name
+- Employee Title
 
 #### Retiring Titles
+The information in this table below consists of number of employees eligible to retire per title.
+
+Retiring Titles table consists of the following data:
+- Count of Employees
+- Employee Title
 
 #### Mentorship Eligibility
+The information in this table below consists of number of employees eligible to participate in a mentorship program.
+
+Mentorship Eligibility table consists of the following data:
+- Employee Number
+- Employee First Name
+- Employee Last Name
+- Employee Birth Date
+- Start Date of Title
+- End Date of Title
+- Employee Title
+
 
 ## Summary
