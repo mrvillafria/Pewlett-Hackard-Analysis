@@ -57,6 +57,6 @@ Mentorship Eligibility table consists of the following data:
 - End Date of Title
 - Employee Title
 
-[Mentorship Eligibility Export - Link](https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.csv)
+[Mentorship Eligibility Export - Link](https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv)
 
 ## Summary
