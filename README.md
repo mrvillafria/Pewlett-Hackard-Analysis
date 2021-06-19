@@ -72,3 +72,4 @@ Based on the new tables we created, here are four key points we discovered:
 4. There are 1549 employees that fit the criteria for being a mentor in a mentorship program.
 
 ## Summary
+As the "silver tsunami" begins to make an impact, there are a few key points we can look at when determing how many roles will need to be filled. Based on our analysis, we can see there are 90,398 total employees born between 1952 and 1955 that are expected to retire soon. This does not necessarily mean all of these employees will retire. We would need to do additional research to find statistics around how many people continue to work through retirement. Additionally, we could do more research on average age of retirement. It would also be a great idea to have the company evaluated to see if all of these roles are actually needed.
