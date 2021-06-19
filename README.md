@@ -69,7 +69,7 @@ Based on the new tables we created, here are four key points we discovered:
 </p>
 
 
-3. There are 29414 Senior Engineers and 28254 Senior Staff that are eligible to retire. Their Senior titles gives an indication that they are experienced in their current role which would be a great quality for being a potential mentor.
+3. There are 29414 Senior Engineers and 28254 Senior Staff that are eligible to retire. Their Senior title gives an indication that they are experienced in their current role which would be a desirable quality for being a potential mentor.
 4. 
 
 ## Summary
