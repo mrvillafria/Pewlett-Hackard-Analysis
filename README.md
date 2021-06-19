@@ -24,7 +24,7 @@ Retirement Titles table consists of the following data:
 - End Date of Title
 
 #### Unique Titles
-The information in this table below consists of employees eligible to retire and their most recent title.
+The information in this table below consists of employees eligible to retire and their most recent title. We noticed in the Retirement Titles table that there was duplicate entries because employees changed their titles over the years. In order to remove these duplicates and only keep their most recent title, we used DISTINCT ON to query for the first occurance of the employee number.
 
 Unique Titles table consists of the following data:
 - Employee Number
