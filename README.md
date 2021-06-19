@@ -61,15 +61,15 @@ Mentorship Eligibility table consists of the following data:
 
 ### Analysis
 Based on the new tables we created, here are four key points we discovered:
-1. There are 90398 total employees at Pewlett Hackard born between 1952 and 1955 that are expected to retire soon
-2. By looking at the employees' most recent titles, we find that majority of retiring employees have senior titles or are engineers
+1. There are 90398 total employees born between 1952 and 1955 that are expected to retire soon
+2. By looking at the employees' most recent titles, we find that majority of retiring employees have Senior titles or are Engineers
 
 <p align="center">
   <img src="https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Resources/Retiring_Titles.PNG" />
 </p>
 
 
-3. 
+3. There are 29414 Senior Engineers and 28254 Senior Staff that are eligible to retire. Their Senior titles gives an indication that they are experienced in their current role which would be a great quality for being a potential mentor.
 4. 
 
 ## Summary
