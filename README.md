@@ -12,6 +12,9 @@ By putting Pewlett Hackard's employee data into a new database, their data is no
 
 ## Results
 
+Please feel free to reference any of these SQL statements from this analysis at the following link:
+[Employee Database Challenge Queries - Link](https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Queries/Employee_Database_challenge.sql)
+
 #### Retirement Titles
 The information in this table below consists of employees eligible to retire and their titles. As mentioned previously, Bobby's boss has determined that any employee born between 1952 and 1955 will start to retire. This table will be the foundation to our next two queries. In order to retrieve this information based on the data we had, we joined the existing Employees and Titles tables on their primary key, which is the Employee Number. 
 
@@ -26,7 +29,7 @@ Retirement Titles table consists of the following data:
 [Retirement Titles Export - Link](https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv)
 
 #### Unique Titles
-The information in this table below consists of employees eligible to retire and their most recent title. We noticed in the Retirement Titles table that there was duplicate entries because employees changed their titles over the years. In order to remove these duplicates and only keep their most recent title, we used DISTINCT ON in our query to retrieve the first occurance of the employee number.
+The information in this table below consists of employees eligible to retire and their most recent title. We noticed in the Retirement Titles table that there were duplicate entries because employees changed their titles over the years. In order to remove these duplicates and only keep their most recent title, we used DISTINCT ON in our query to retrieve the first occurance of the employee number.
 
 Unique Titles table consists of the following data:
 - Employee Number
@@ -74,7 +77,7 @@ Based on the new tables we created, here are four key points we discovered:
 ## Summary
 
 ### "Silver Tsunami" Summary
-As the "silver tsunami" begins to make an impact, there are a few key points we can look at when determing how many roles will need to be filled. Based on our analysis, we can see there are 90,398 total employees born between 1952 and 1955 that are expected to retire soon. This does not necessarily mean all of these employees will retire. We would need to do additional research to find statistics around how many people continue to work through retirement. Additionally, we could do more research on average age of retirement. It would also be a great idea to have the company evaluated to see if all of these roles are actually needed. 
+As the "silver tsunami" begins to make an impact, there are a few key points we can look at when determining how many roles will need to be filled. Based on our analysis, we can see there are 90,398 total employees born between 1952 and 1955 that are expected to retire soon. This does not necessarily mean all of these employees will retire. We would need to do additional research to find statistics around how many people continue to work through retirement. Additionally, we could do more research on average age of retirement. It would also be a great idea to have the company evaluated to see if all of these roles are actually needed. 
 
 An additional query to run would be to find employees that still work for the company that are eligible to retire and their most recent titles. The original query did not take into account if the employees still worked there. We find after adding the filter to see if they still worked at the company, there are actually 72,458 employees instead of 90,398. 
 
