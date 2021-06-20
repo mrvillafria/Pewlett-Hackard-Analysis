@@ -48,3 +48,30 @@ ON (e.emp_no = t.emp_no)
 WHERE (de.to_date = '9999-01-01')
 AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no ASC;
+
+--Deliverable 3: Retrieve retiring employees that currently still work for the company and keep only their most recent title
+SELECT DISTINCT ON (rt.emp_no) 
+rt.emp_no,
+rt.first_name,
+rt.last_name,
+rt.title
+INTO unique_titles_currently_employed
+FROM retirement_titles rt
+WHERE (rt.to_date = '9999-01-01')
+ORDER BY rt.emp_no ASC, rt.to_date DESC;
+
+--Deliverable 3: Retrieve number of employees by their most recent job title who are about to retire and are still employed by the company
+SELECT COUNT(utce.emp_no),
+utce.title
+INTO retiring_titles_currently_employed
+FROM unique_titles_currently_employed as utce
+GROUP BY utce.title
+ORDER BY COUNT(utce.emp_no) DESC;
+
+--Deliverable 3: Retrieve number of employees who are eligible to participate in a mentorship program by their titles
+SELECT COUNT(me.emp_no),
+me.title
+INTO mentorship_titles
+FROM mentorship_eligibilty as me
+GROUP BY me.title
+ORDER BY COUNT(me.emp_no) DESC;
