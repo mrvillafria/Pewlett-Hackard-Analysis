@@ -72,6 +72,16 @@ Based on the new tables we created, here are four key points we discovered:
 4. There are 1549 employees that fit the criteria for being a mentor in a mentorship program.
 
 ## Summary
-As the "silver tsunami" begins to make an impact, there are a few key points we can look at when determing how many roles will need to be filled. Based on our analysis, we can see there are 90,398 total employees born between 1952 and 1955 that are expected to retire soon. This does not necessarily mean all of these employees will retire. We would need to do additional research to find statistics around how many people continue to work through retirement. Additionally, we could do more research on average age of retirement. It would also be a great idea to have the company evaluated to see if all of these roles are actually needed.
 
-When looking into potential mentors for the next generation of Pewlett Hackard employees, it would be ideal to have them be experienced employees. Based on our analysis, there are 1549 employees that fit the criteria for being a mentor in a mentorship program. There is a potential to fill 90,398 roles if all of the employees eligible to retire plan to retire in the same year. 
+### "Silver Tsunami" Summary
+As the "silver tsunami" begins to make an impact, there are a few key points we can look at when determing how many roles will need to be filled. Based on our analysis, we can see there are 90,398 total employees born between 1952 and 1955 that are expected to retire soon. This does not necessarily mean all of these employees will retire. We would need to do additional research to find statistics around how many people continue to work through retirement. Additionally, we could do more research on average age of retirement. It would also be a great idea to have the company evaluated to see if all of these roles are actually needed. 
+
+An additional query to run would be to find employees that still work for the company that are eligible to retire and their most recent titles. The original query did not take into account if the employees still worked there. We find after adding the filter to see if they still worked at the company, there are actually 72,458 employees instead of 90,398. We also created a new count of employees eligible to retire per title based on if they were still employed.
+
+<p align="center">
+  <img src="https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Resources/Retiring_Titles_Currently_Employed.PNG" />
+</p>
+
+
+### Mentorship at Pewlett Hackard
+When looking into potential mentors for the next generation of Pewlett Hackard employees, it would be ideal to have them be experienced employees. Based on our analysis, there are 1,549 employees that fit the criteria for being a mentor in a mentorship program. There is a potential to fill 72,458 roles if all of the current employees eligible to retire plan to retire in the same year. 
