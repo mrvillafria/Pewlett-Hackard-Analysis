@@ -84,4 +84,10 @@ An additional query to run would be to find employees that still work for the co
 
 
 ### Mentorship at Pewlett Hackard
-When looking into potential mentors for the next generation of Pewlett Hackard employees, it would be ideal to have them be experienced employees. Based on our analysis, there are 1,549 employees that fit the criteria for being a mentor in a mentorship program. There is a potential to fill 72,458 roles if all of the current employees eligible to retire plan to retire in the same year. 
+When looking into potential mentors for the next generation of Pewlett Hackard employees, it would be ideal to have them be experienced employees. Based on our analysis, there are 1,549 employees that fit the criteria for being a mentor in a mentorship program. There is a potential to fill 72,458 roles if all of the current employees eligible to retire plan to retire in the same year. If we divide the amount of potential employees retiring by the amount of mentors, this could mean every mentor would have around 47 employees that they would have to train. 
+
+An additional query to run would be to find the amount of mentors per title. This way we can make sure we have enough mentors to train the new employees who will be filling their specific title. 
+
+<p align="center">
+  <img src="https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Resources/Mentorship_Titles.PNG" />
+</p>
