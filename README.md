@@ -61,15 +61,15 @@ Mentorship Eligibility table consists of the following data:
 
 ### Analysis
 Based on the new tables we created, here are four key points we discovered:
-1. There are 90398 total employees born between 1952 and 1955 that are expected to retire soon.
+1. There are 90,398 total employees born between 1952 and 1955 that are expected to retire soon.
 2. By looking at the employees' most recent titles, we find that majority of retiring employees have Senior titles or are Engineers.
 
 <p align="center">
   <img src="https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Resources/Retiring_Titles.PNG" />
 </p>
 
-3. There are 29414 Senior Engineers and 28254 Senior Staff that are eligible to retire. Their Senior title gives an indication that they are experienced in their current role which would be a desirable quality for being a potential mentor.
-4. There are 1549 employees that fit the criteria for being a mentor in a mentorship program.
+3. There are 29,414 Senior Engineers and 28,254 Senior Staff that are eligible to retire. Their Senior title gives an indication that they are experienced in their current role which would be a desirable quality for being a potential mentor.
+4. There are 1,549 employees that fit the criteria for being a mentor in a mentorship program.
 
 ## Summary
 
@@ -91,3 +91,5 @@ An additional query to run would be to find the amount of mentors per title. Thi
 <p align="center">
   <img src="https://github.com/mrvillafria/Pewlett-Hackard-Analysis/blob/main/Resources/Mentorship_Titles.PNG" />
 </p>
+
+AFter running the additional query to see the amount of mentors per title, we will need to consider expanding and editing our criteria for mentors. There is a signficant amount of potential employees retiring and not enough mentors. Instead of looking at birth year for criteria, we could potentially look at the amount of time an employee has spent in their current role. We would need more information on when and what year this data was pulled so we could run more queries. 
